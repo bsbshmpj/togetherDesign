@@ -1,0 +1,35 @@
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    width: 1200px;
+    height: 120px;
+    padding-top: 40px;
+}
+
+.headerBtn:hover {
+    cursor: pointer;
+}
+
+.rightHeaderBtn {
+    margin-left: 10px;
+}
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightHeaderBtn {
+    display: flex;
+
+}
+
+.logoutBtn {
+    display: none;
+}
