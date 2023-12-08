@@ -14,18 +14,6 @@ a {
     text-decoration: none;
 }
 
-/* ------------------------------------------------------------ */
-
-header {
-    height: 120px;
-    font-size: 30px;
-    text-align: center;
-    line-height: 100px;
-    background-color: #cff4fc;
-}
-
-/* ------------------------------------------------------------ */
-
 #together-wrap {
     margin: 30px auto 0;
     width: 1200px;
@@ -100,7 +88,7 @@ header {
     border-radius: 10px;
     transition: 0.2s all;
 }
-.list-content:hover{
+.list-content:hover {
     border: 1px solid #333;
     background-color: #ececec;
     /* background-color: #f7f7f7; */
@@ -131,26 +119,56 @@ svg {
     cursor: pointer;
     transition: 0.2s all;
 }
-#heart:hover{
+#heart:hover {
     fill: rgb(255, 80, 80);
 }
-.content-title{
+.content-title {
     font-weight: 500;
     cursor: pointer;
 }
-.content-period{
+.content-period {
     font-size: 14px;
 }
 
 /* ------------------------------------------------------------ */
 
-#pagination-wrap{
-    /* -----지우기----- */
-    border: 2px solid red;
-}
-#pagination-content{
+#pagination-wrap {
+    margin: 40px 0;
     display: flex;
+    justify-content: center;
+
+    /* -----지우기----- */
+    /* border: 1px solid red; */
 }
-/* #pagination-content > li{
-    
+/* #pagination-wrap > div {
+    display: inline;
 } */
+#pagination-content {
+    display: flex;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+#pagination-content > li {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 45px;
+    border-right: 1px solid #aaa;
+    transition: 0.2s all;
+}
+#pagination-content > li:hover{
+    background-color: #ececec;
+}
+#pagination-content > li:first-of-type{
+    border-radius: 5px 0 0 5px;
+}
+#pagination-content > li:last-of-type {
+    border-right: none;
+    border-radius: 0 5px 5px 0;
+}
+#pagination-content > li > a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+}
