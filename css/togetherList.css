@@ -14,18 +14,6 @@ a {
     text-decoration: none;
 }
 
-/* ------------------------------------------------------------ */
-
-header {
-    height: 120px;
-    font-size: 30px;
-    text-align: center;
-    line-height: 100px;
-    background-color: #cff4fc;
-}
-
-/* ------------------------------------------------------------ */
-
 #together-wrap {
     margin: 30px auto 0;
     width: 1200px;

@@ -8,28 +8,68 @@ header {
 .header {
     width: 1200px;
     height: 120px;
-    padding-top: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .headerBtn:hover {
     cursor: pointer;
 }
 
+/* 하트버튼만 더 옮기기 */
+.heart {
+    margin-right: 5px;
+}
+
+.headerBtnWrap {
+    display: flex;
+    align-items: center;
+}
+
+.menuBtnWrap {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.menuTextWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+    margin-right: 10px;
+}
+
+.menuBtn {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.togetherBtn {
+    color: #39c35e;
+}
+
+.protectBtn {
+    color: rgb(228, 114, 133);
+    display: none;
+}
+
+.raiseBtn {
+    color: rgb(245, 171, 60);
+    display: none;
+}
+ 
 .rightHeaderBtn {
     margin-left: 10px;
 }
 
-.flexCenter {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-.rightHeaderBtn {
-    display: flex;
-
-}
-
+/* 로그아웃 버튼은 나중에... */
 .logoutBtn {
+    display: none;
+}
+
+.menuUpBtn {
     display: none;
 }
