@@ -7,16 +7,29 @@
         <link rel="stylesheet" href="./css/header.css" />
         <link rel="stylesheet" href="./css/togetherList.css" />
         <title>함께하기</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script defer src="./js/header.js"></script>
     </head>
     <body>
         <header>
-            <div class="flexCenter header">
-                <img class="headerBtn" src="./img/logo.png" alt="" height="80px" />
-                <ul class="rightHeaderBtn">
-                    <li><img class="headerBtn rightHeaderBtn" src="./img/zzimBtn.png" height="40px" /></li>
-                    <li><img class="headerBtn rightHeaderBtn" src="./img/personBtn.png" height="40px" /></li>
-                    <li><img class="headerBtn rightHeaderBtn" src="./img/loginBtn.png" height="40px" /></li>
-                    <li><img class="headerBtn logoutBtn rightHeaderBtn" src="./img/logoutBtn.png" height="60px" /></li>
+            <div class="header">
+                <ul class="headerBtnWrap">
+                    <img class="headerBtn" src="./img/header/logo.png" alt="" height="80px" />
+                    <div class="menuBtnWrap headerBtn">
+                        <div class="menuTextWrap">
+                            <div class="menuBtn togetherBtn">함께하기</div>
+                            <div class="menuBtn protectBtn">지켜주기</div>
+                            <div class="menuBtn raiseBtn">같이키우기</div>
+                        </div>
+                        <img class="menuDownBtn" src="./img/header/menuDownBtn.png" height="20px" />
+                        <img class="menuUpBtn" src="./img/header/menuUpBtn.png" height="20px" />
+                    </div>
+                </ul>
+                <ul class="headerBtnWrap">
+                    <li><img class="headerBtn rightHeaderBtn heart" src="./img/header/zzimBtn.png" height="43px" /></li>
+                    <li><img class="headerBtn rightHeaderBtn" src="./img/header/personBtn.png" height="40px" /></li>
+                    <li><img class="headerBtn rightHeaderBtn" src="./img/header/loginBtn.png" height="43px" /></li>
+                    <li><img class="headerBtn logoutBtn rightHeaderBtn" src="./img/header/logoutBtn.png" height="43px" /></li>
                 </ul>
             </div>
         </header>

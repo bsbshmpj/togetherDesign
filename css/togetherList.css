@@ -156,10 +156,10 @@ svg {
     border-right: 1px solid #aaa;
     transition: 0.2s all;
 }
-#pagination-content > li:hover{
+#pagination-content > li:hover {
     background-color: #ececec;
 }
-#pagination-content > li:first-of-type{
+#pagination-content > li:first-of-type {
     border-radius: 5px 0 0 5px;
 }
 #pagination-content > li:last-of-type {
